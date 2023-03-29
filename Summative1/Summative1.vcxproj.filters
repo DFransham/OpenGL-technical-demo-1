@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{3581c5d6-78b6-41c9-811f-d958f72dca78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Vertex">
+      <UniqueIdentifier>{c2f75731-a7df-4a50-be4b-c61f1ce59282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Fragment">
+      <UniqueIdentifier>{563e8949-c3d4-44f9-9347-9a168f3a5733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{89f805ec-5bd1-4839-a84f-7a4ba2823eaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDimensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\FixedColor.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="Resources\Shaders\Texture.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="Resources\Shaders\TextureMix.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="Resources\Shaders\TextureMixFade.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertexColor.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertexColorFade.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="Resources\Shaders\ClipSpace.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\FixedTriangle.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\NDC_Texture.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\PositionOnly.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\SpriteAnimate.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertexColor.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\WorldSpace.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="Resources\Shaders\Animated_Texture.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\AwesomeFace.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\BlueTorch.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Capguy_Walk.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\DunluceRebuilt.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\DunluceRuins.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Rayman.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ElectronFlight.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ElectronPad.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
